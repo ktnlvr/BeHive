@@ -4,5 +4,5 @@ using UnityEngine;
 
 public static class Options
 {
-    public static float mouseSensetivity = 3f;
+    public static float mouseSensetivity = 6f;
 }
