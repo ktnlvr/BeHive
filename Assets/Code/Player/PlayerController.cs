@@ -9,9 +9,8 @@ public class PlayerController : MonoBehaviour
     [Header("Strong Dependencies")]
     [SerializeField]
     private CharacterController controller;
-    [SerializeField]
-    private GameObject camera;
-    private Camera cam;
+    public GameObject camera;
+    public Camera cam;
 
     [Header("Strong Dependencies")]
     public float moveSpeed = 7f;
